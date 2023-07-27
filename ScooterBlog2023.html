@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scooter Blog - Scooters Available in India</title>
+  <link rel="stylesheet" href="scooter.css">
+</head>
+<body>
+<header>
+  <h1>Available Scooters in India as of 2023</h1>
+</header>
+<main>
+  <label for="filterInput">Filter by Type:</label>
+  <input type="text" id="filterInput" onkeyup="filterTable()" placeholder="Type to filter">
+  <br>
+  <br>
+  <table id="scooterTable">
+  <thead>
+    <tr>
+      <th class="sortable" onclick="sortTable(0)">Scooter</th>
+      <th class="sortable" onclick="sortTable(1)">Type</th>
+      <th class="sortable" onclick="sortTable(2)">Weight</th>
+      <th class="sortable" onclick="sortTable(3)">Dimensions</th>
+      <th class="sortable" onclick="sortTable(4)">Ground Clearance</th>
+      <th class="sortable" onclick="sortTable(5)">Top Speed</th>
+      <th class="sortable" onclick="sortTable(6)">Charging Time</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Ather 450X</td>
+      <td>EV with single Portable Battery</td>
+      <td>125 kg</td>
+      <td>1975 x 715 x 1115 mm</td>
+      <td>165 mm</td>
+      <td>80 km/h</td>
+      <td>5 hours 40 minutes</td>
+    </tr>
+    <tr>
+      <td>Ather 450 Plus</td>
+      <td>EV with single Portable Battery</td>
+      <td>120 kg</td>
+      <td>1940 x 720 x 1115 mm</td>
+      <td>165 mm</td>
+      <td>80 km/h</td>
+      <td>5 hours 40 minutes</td>
+    </tr>
+    <tr>
+      <td>Bajaj Chetak</td>
+      <td>EV with single Portable Battery</td>
+      <td>144 kg</td>
+      <td>1865 x 695 x 1155 mm</td>
+      <td>155 mm</td>
+      <td>75 km/h</td>
+      <td>4 hours</td>
+    </tr>
+    <tr>
+      <td>iVOOMI S1 80</td>
+      <td>EV with single Portable Battery</td>
+      <td>95 kg</td>
+      <td>1800 x 680 x 1120 mm</td>
+      <td>160 mm</td>
+      <td>80 km/h</td>
+      <td>4 hours</td>
+    </tr>
+    <tr>
+      <td>Okinawa Ridge+</td>
+      <td>EV with single Portable Battery</td>
+      <td>102 kg</td>
+      <td>1820 x 680 x 1155 mm</td>
+      <td>155 mm</td>
+      <td>85 km/h</td>
+      <td>4 hours</td>
+    </tr>
+    <tr>
+      <td>Simple One</td>
+      <td>EV with single Portable Battery</td>
+      <td>113 kg</td>
+      <td>1930 x 720 x 1110 mm</td>
+      <td>165 mm</td>
+      <td>95 km/h</td>
+      <td>4 hours</td>
+    </tr>
+    <tr>
+      <td>Hero Electric Optima CX</td>
+      <td>EV with single Portable Battery</td>
+      <td>110 kg</td>
+      <td>1720 x 650 x 1070 mm</td>
+      <td>140 mm</td>
+      <td>65 km/h</td>
+      <td>5 hours</td>
+    </tr>
+    <tr>
+      <td>Ampere Zeal</td>
+      <td>EV with single Portable Battery</td>
+      <td>108 kg</td>
+      <td>1700 x 660 x 1090 mm</td>
+      <td>150 mm</td>
+      <td>75 km/h</td>
+      <td>4 hours</td>
+    </tr>
+    <tr>
+      <td>iQube ST</td>
+      <td>EV with single Portable Battery</td>
+      <td>109 kg</td>
+      <td>1915 x 685 x 1115 mm</td>
+      <td>165 mm</td>
+      <td>75 km/h</td>
+      <td>4 hours</td>
+    </tr>
+    <tr>
+      <td>Okinawa i-Praise Plus</td>
+      <td>EV with dual Portable Battery</td>
+      <td>112 kg</td>
+      <td>1970 x 745 x 1165 mm</td>
+      <td>175 mm</td>
+      <td>82 km/h</td>
+      <td>4-6 hours</td>
+    </tr>
+    <tr>
+      <td>Simple One</td>
+      <td>EV with dual Portable Battery</td>
+      <td>130 kg</td>
+      <td>1995 x 740 x 1180 mm</td>
+      <td>170 mm</td>
+      <td>105 km/h</td>
+      <td>4-5 hours</td>
+    </tr>
+    <tr>
+      <td>Hero Electric Photon</td>
+      <td>EV with dual Portable Battery</td>
+      <td>113 kg</td>
+      <td>1920 x 700 x 1120 mm</td>
+      <td>150 mm</td>
+      <td>65 km/h</td>
+      <td>4-6 hours</td>
+    </tr>
+    <tr>
+      <td>Ampere Magnus EX</td>
+      <td>EV with dual Portable Battery</td>
+      <td>127 kg</td>
+      <td>1990 x 750 x 1130 mm</td>
+      <td>185 mm</td>
+      <td>85 km/h</td>
+      <td>4-6 hours</td>
+    </tr>
+    <tr>
+      <td>iVOOMi JeetX</td>
+      <td>EV with dual Portable Battery</td>
+      <td>125 kg</td>
+      <td>1950 x 745 x 1220 mm</td>
+      <td>175 mm</td>
+      <td>105 km/h</td>
+      <td>4-6 hours</td>
+    </tr>
+
+    <tr>
+      <td>Bounce Infinity E1</td>
+      <td>EV</td>
+      <td>90 kg</td>
+      <td>1810 x 720 x 1120 mm</td>
+      <td>160 mm</td>
+      <td>65 km/h</td>
+      <td>2-3 hours</td>
+    </tr>
+    <tr>
+      <td>Hero Electric Dash</td>
+      <td>EV</td>
+      <td>106 kg</td>
+      <td>1995 x 740 x 1110 mm</td>
+      <td>165 mm</td>
+      <td>65 km/h</td>
+      <td>4-6 hours</td>
+    </tr>
+    <tr>
+      <td>Ampere V4</td>
+      <td>EV</td>
+      <td>112 kg</td>
+      <td>1900 x 720 x 1160 mm</td>
+      <td>165 mm</td>
+      <td>75 km/h</td>
+      <td>4-6 hours</td>
+    </tr>
+    <tr>
+      <td>Honda Activa 6G</td>
+      <td>Petrol Based</td>
+      <td>107 kg</td>
+      <td>1817 x 672 x 1112 mm</td>
+      <td>171 mm</td>
+      <td>85 km/h</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>TVS Scooty Zest 110</td>
+      <td>Petrol Based</td>
+      <td>93 kg</td>
+      <td>1780 x 660 x 1080 mm</td>
+      <td>165 mm</td>
+      <td>82 km/h</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>Hero Pleasure Plus</td>
+      <td>Petrol Based</td>
+      <td>103 kg</td>
+      <td>1770 x 660 x 1070 mm</td>
+      <td>165 mm</td>
+      <td>82 km/h</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>Yamaha Fascino 125</td>
+      <td>Petrol Based</td>
+      <td>106 kg</td>
+      <td>1815 x 680 x 1070 mm</td>
+      <td>160 mm</td>
+      <td>85 km/h</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>Suzuki Access 125</td>
+      <td>Petrol Based</td>
+      <td>102 kg</td>
+      <td>1820 x 660 x 1090 mm</td>
+      <td>155 mm</td>
+      <td>87 km/h</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>Bajaj Platina 110</td>
+      <td>Petrol Based</td>
+      <td>99 kg</td>
+      <td>1765 x 655 x 1080 mm</td>
+      <td>165 mm</td>
+      <td>81 km/h</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>TVS Jupiter</td>
+      <td>Petrol Based</td>
+      <td>109 kg</td>
+      <td>1820 x 695 x 1105 mm</td>
+      <td>160 mm</td>
+      <td>82 km/h</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>Hero Maestro Edge 125</td>
+      <td>Petrol Based</td>
+      <td>110 kg</td>
+      <td>1840 x 670 x 1115 mm</td>
+      <td>165 mm</td>
+      <td>86 km/h</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>Piaggio Vespa VX</td>
+      <td>Petrol Based</td>
+      <td>110 kg</td>
+      <td>1820 x 680 x 1175 mm</td>
+      <td>130 mm</td>
+      <td>78 km/h</td>
+      <td>NA</td>
+    </tr>
+    </tbody>
+  </table>
+</main>
+<footer>
+  <p>&copy; 2023 Your Scooter Blog. All rights reserved.</p>
+</footer>
+<script src="sorting-and-filtering.js"></script>
+</body>
+</html>
+
+
